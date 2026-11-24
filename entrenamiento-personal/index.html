@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="color-scheme" content="light dark" />
-  <meta name="theme-color" content="#f5f0e6" media="(prefers-color-scheme: light)" />
-  <meta name="theme-color" content="#16110f" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#f6f6f4" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0f0f0f" media="(prefers-color-scheme: dark)" />
   <title>Entrenamiento personal · Samurai Muzenza</title>
   <meta name="description" content="Entrenamiento personal de calistenia en Madrid y online: fuerza, movilidad y habilidades como el pino. Valoración inicial medida, bonos y seguimiento online." />
   <meta property="og:title" content="Entrenamiento personal · Samurai Muzenza" />
@@ -15,87 +15,85 @@
   <meta property="og:image" content="https://samuraimuzenza.com/entrenamiento-personal/pino-playa.jpg" />
   <link rel="canonical" href="https://samuraimuzenza.com/entrenamiento-personal/" />
   <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+  <link rel="preload" href="../fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="stylesheet" href="../styles.css" />
 </head>
 <body>
-  <main>
-    <nav class="crumb">
-      <a href="../"><span class="seal seal-sm" lang="ja" aria-hidden="true">侍</span> Samurai Muzenza</a>
-    </nav>
+  <nav class="bar wrap" aria-label="Principal">
+    <a class="brand" href="../"><span class="mark" lang="ja" aria-hidden="true">侍</span> Samurai Muzenza</a>
+    <a class="bar-link" href="https://www.instagram.com/samurai.muzenza/" rel="me noopener" target="_blank">Instagram ↗</a>
+  </nav>
 
-    <header class="hero">
-      <div class="hero-text">
-        <h1>Entrenamiento personal</h1>
-        <p class="tagline">Fuerza, movilidad y habilidades de calistenia, desde tu punto de partida.</p>
+  <main>
+    <header class="page-head wrap">
+      <div>
+        <h1 class="display">Entrena&shy;miento personal</h1>
+        <p class="lede">Fuerza, movilidad y habilidades de calistenia, desde tu punto de partida.</p>
         <p class="where">En Madrid, en persona · y online</p>
-        <a class="cta" href="https://ig.me/m/samurai.muzenza" rel="noopener" target="_blank">Escríbeme por Instagram</a>
+        <a class="btn red" href="https://ig.me/m/samurai.muzenza" rel="noopener" target="_blank">Escríbeme por Instagram</a>
       </div>
-      <img class="hero-photo" src="pino-playa.jpg" width="900" height="1200" alt="Daniel haciendo el pino sobre paralelas en una playa, con el mar detrás" />
+      <img src="pino-playa.jpg" width="900" height="1200" alt="Daniel haciendo el pino sobre paralelas en una playa, con el mar detrás" />
     </header>
 
-    <section aria-labelledby="como">
-      <h2 id="como">Cómo trabajo</h2>
-      <ol class="steps">
-        <li>
-          <span class="n">1</span>
-          <div>
-            <h3>Valoración</h3>
+    <section class="alt" aria-labelledby="como">
+      <div class="wrap">
+        <h2 id="como" class="section-title display">Cómo trabajo</h2>
+        <ol class="rows">
+          <li class="row">
+            <span class="n">01</span>
+            <h3 class="display">Valoración</h3>
             <p>Tests de fuerza y movilidad y una foto de tu técnica analizada con <a href="https://anglelab.samuraimuzenza.com/">Angle Lab</a>. Sabremos de dónde partes con números, no a ojo.</p>
-          </div>
-        </li>
-        <li>
-          <span class="n">2</span>
-          <div>
-            <h3>Entrenamiento a tu medida</h3>
+          </li>
+          <li class="row">
+            <span class="n">02</span>
+            <h3 class="display">A tu medida</h3>
             <p>Sesiones adaptadas a tu objetivo: ganar fuerza, moverte mejor o conseguir una habilidad concreta, como el pino.</p>
-          </div>
-        </li>
-        <li>
-          <span class="n">3</span>
-          <div>
-            <h3>Medimos el progreso</h3>
+          </li>
+          <li class="row">
+            <span class="n">03</span>
+            <h3 class="display">Medimos</h3>
             <p>Repetimos los tests cada cierto tiempo. Ves lo que has avanzado y ajustamos el plan.</p>
-          </div>
-        </li>
-      </ol>
+          </li>
+        </ol>
+      </div>
     </section>
 
-    <section aria-labelledby="tarifas">
-      <h2 id="tarifas">Tarifas</h2>
+    <section class="wrap" aria-labelledby="tarifas">
+      <h2 id="tarifas" class="section-title display">Tarifas</h2>
 
-      <h3 class="group">En persona · sesiones de 60 minutos</h3>
-      <ul class="prices">
-        <li class="price">
-          <div class="p-head"><span class="p-name">Valoración inicial</span><span class="p-amount">35 €</span></div>
+      <h3 class="group-title first">En persona · sesiones de 60 minutos</h3>
+      <ul class="menu">
+        <li>
+          <span class="name">Valoración inicial</span><span class="amount">35 €</span>
           <p>Tests, foto analizada y primera propuesta. Se descuenta si después contratas un bono.</p>
         </li>
-        <li class="price">
-          <div class="p-head"><span class="p-name">Sesión suelta</span><span class="p-amount">45 €</span></div>
+        <li>
+          <span class="name">Sesión suelta</span><span class="amount">45 €</span>
           <p>Para probar o para entrenar de vez en cuando.</p>
         </li>
-        <li class="price">
-          <div class="p-head"><span class="p-name">Bono de 4 sesiones</span><span class="p-amount">160 €</span></div>
+        <li>
+          <span class="name">Bono de 4 sesiones</span><span class="amount">160 €</span>
           <p>Una por semana. Sale a 40 € la sesión.</p>
         </li>
-        <li class="price featured">
+        <li>
           <span class="badge">Mejor precio por sesión</span>
-          <div class="p-head"><span class="p-name">Bono de 8 sesiones</span><span class="p-amount">300 €</span></div>
+          <span class="name">Bono de 8 sesiones</span><span class="amount">300 €</span>
           <p>Dos por semana. Sale a 37,50 € la sesión.</p>
         </li>
-        <li class="price">
-          <div class="p-head"><span class="p-name">Dúo</span><span class="p-amount">60 €</span></div>
+        <li>
+          <span class="name">Dúo</span><span class="amount">60 €</span>
           <p>Una sesión para dos personas: 30 € cada una.</p>
         </li>
       </ul>
 
-      <h3 class="group">A distancia</h3>
-      <ul class="prices">
-        <li class="price">
-          <div class="p-head"><span class="p-name">Online con seguimiento</span><span class="p-amount">70 €<small>/mes</small></span></div>
+      <h3 class="group-title">A distancia</h3>
+      <ul class="menu">
+        <li>
+          <span class="name">Online con seguimiento</span><span class="amount">70 €<small>/mes</small></span>
           <p>Tu plan de entrenamiento y una revisión semanal de tus vídeos.</p>
         </li>
-        <li class="price">
-          <div class="p-head"><span class="p-name">Híbrido</span><span class="p-amount">110 €<small>/mes</small></span></div>
+        <li>
+          <span class="name">Híbrido</span><span class="amount">110 €<small>/mes</small></span>
           <p>Una sesión en persona al mes para medir y corregir, y el seguimiento online el resto.</p>
         </li>
       </ul>
@@ -107,25 +105,32 @@
       </ul>
     </section>
 
-    <section aria-labelledby="quien">
-      <h2 id="quien">Quién te entrena</h2>
-      <div class="bio">
-        <span class="seal" lang="ja" aria-hidden="true">侍</span>
+    <section class="wrap" aria-labelledby="quien">
+      <div class="about">
+        <img src="../img/europeu-podio.jpg" width="900" height="1566" loading="lazy" alt="Daniel sonriendo en el podio del Europeu Muzenza con una medalla al cuello y la bandera de España" />
         <div>
-          <h3>Daniel Jiménez</h3>
-          <p>Graduado en Ciencias de la Actividad Física y del Deporte. Instructor de calistenia y capoeirista.</p>
+          <p class="kicker">Quién te entrena</p>
+          <h2 id="quien" class="display">Daniel Jiménez</h2>
+          <p>Graduado en Ciencias de la Actividad Física y del Deporte. Instructor de calistenia y capoeirista del Grupo Muzenza.</p>
         </div>
       </div>
     </section>
 
-    <section class="closing">
-      <p>¿Tienes dudas o quieres empezar? Cuéntame qué buscas y te digo cómo lo haríamos.</p>
-      <a class="cta" href="https://ig.me/m/samurai.muzenza" rel="noopener" target="_blank">Escríbeme por Instagram</a>
+    <section class="cta-band">
+      <div class="wrap">
+        <p class="display">¿Empezamos?</p>
+        <p>¿Tienes dudas o quieres empezar? Cuéntame qué buscas y te digo cómo lo haríamos.</p>
+        <a class="btn" href="https://ig.me/m/samurai.muzenza" rel="noopener" target="_blank">Escríbeme por Instagram</a>
+      </div>
     </section>
-
-    <footer>
-      <p><a href="../">samuraimuzenza.com</a> · © 2026 Samurai Muzenza</p>
-    </footer>
   </main>
+
+  <footer>
+    <div class="foot wrap">
+      <a class="brand" href="../"><span class="mark" lang="ja" aria-hidden="true">侍</span> Samurai Muzenza</a>
+      <a class="bar-link" href="https://www.instagram.com/samurai.muzenza/" rel="me noopener" target="_blank">@samurai.muzenza ↗</a>
+      <p>© 2026 Samurai Muzenza</p>
+    </div>
+  </footer>
 </body>
 </html>

@@ -4,72 +4,128 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="color-scheme" content="light dark" />
-  <meta name="theme-color" content="#f5f0e6" media="(prefers-color-scheme: light)" />
-  <meta name="theme-color" content="#16110f" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#f6f6f4" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0f0f0f" media="(prefers-color-scheme: dark)" />
   <title>Samurai Muzenza</title>
-  <meta name="description" content="Entrenador y atleta de calistenia y capoeira. Herramientas, entrenamientos personales, workshops y una academia en camino." />
+  <meta name="description" content="Entrenador y atleta de calistenia y capoeira. Entrenamiento personal en Madrid y online, workshops y herramientas." />
   <meta property="og:title" content="Samurai Muzenza" />
   <meta property="og:description" content="Entrenador y atleta de calistenia y capoeira." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://samuraimuzenza.com/" />
+  <meta property="og:image" content="https://samuraimuzenza.com/img/pino-playa-1200.jpg" />
   <link rel="canonical" href="https://samuraimuzenza.com/" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preload" href="fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main>
-    <header class="masthead">
-      <span class="seal" lang="ja" aria-hidden="true">侍</span>
-      <h1>Samurai Muzenza</h1>
-      <p class="tagline">Entrenador y atleta.<br />Calistenia y capoeira.</p>
-      <a class="insta" href="https://www.instagram.com/samurai.muzenza/" rel="me noopener" target="_blank">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.2" cy="6.8" r="0.8" class="dot" /></svg>
-        <span>@samurai.muzenza</span>
-      </a>
-    </header>
+  <header class="hero">
+    <nav class="bar wrap" aria-label="Principal">
+      <a class="brand" href="./"><span class="mark" lang="ja" aria-hidden="true">侍</span> Samurai Muzenza</a>
+      <a class="bar-link" href="https://www.instagram.com/samurai.muzenza/" rel="me noopener" target="_blank">Instagram ↗</a>
+    </nav>
+    <figure class="hero-media">
+      <img src="img/pino-playa-1200.jpg" srcset="img/pino-playa-750.jpg 750w, img/pino-playa-1200.jpg 1200w" sizes="(min-width: 900px) 48vw, 100vw" width="1200" height="1600" alt="Daniel haciendo el pino con las piernas abiertas sobre paralelas en la orilla de una playa" fetchpriority="high" />
+    </figure>
+    <h1 class="hero-title display wrap">Samurai<br />Muzenza</h1>
+    <div class="hero-foot wrap">
+      <p>Entrenador y atleta de calistenia y capoeira. En Madrid y online.</p>
+      <div class="btn-row">
+        <a class="btn light" href="entrenamiento-personal/">Entrena conmigo</a>
+      </div>
+    </div>
+  </header>
 
-    <section aria-labelledby="proyectos">
-      <h2 id="proyectos">Lo que hay y lo que viene</h2>
-      <ul class="cards">
-        <li>
-          <a class="card live" href="https://anglelab.samuraimuzenza.com/">
-            <span class="status">Disponible</span>
-            <h3>Angle Lab</h3>
-            <p>Análisis biomecánico sobre fotos: puntos, ángulos y distancias con calibración a escala real. Funciona en el navegador, también sin conexión.</p>
-            <span class="go">Abrir</span>
-          </a>
-        </li>
-        <li>
-          <div class="card">
-            <span class="status">En Madrid y online</span>
-            <h3>Entrenamientos personales</h3>
-            <p>Entrenamiento individual con enfoque en fuerza, movilidad y habilidades de calistenia.</p>
-            <div class="go-row">
+  <main>
+    <section class="wrap">
+      <p class="statement">Entreno a personas para que ganen <em>fuerza</em>, se muevan <em>mejor</em> y consigan habilidades como el <em>pino</em>.</p>
+    </section>
+
+    <section class="wrap" aria-labelledby="que-hago">
+      <h2 id="que-hago" class="section-title display">Lo que hago</h2>
+      <ol class="rows">
+        <li class="row">
+          <span class="n">01</span>
+          <h3 class="display"><a href="entrenamiento-personal/">Entrenamiento personal</a></h3>
+          <div>
+            <p>Fuerza, movilidad y habilidades de calistenia, en persona en Madrid u online. Empezamos con una valoración medida, no a ojo.</p>
+            <div class="links">
               <a class="go" href="entrenamiento-personal/">Ver tarifas</a>
-              <a class="go" href="https://ig.me/m/samurai.muzenza" rel="noopener" target="_blank">Escríbeme por Instagram</a>
+              <a class="go" href="https://ig.me/m/samurai.muzenza" rel="noopener" target="_blank">Escríbeme</a>
             </div>
           </div>
         </li>
-        <li>
-          <div class="card">
-            <span class="status soon">En preparación</span>
-            <h3>Workshops</h3>
+        <li class="row">
+          <span class="n">02</span>
+          <h3 class="display">Workshops</h3>
+          <div>
             <p>Calistenia y handbalance: sesiones presenciales para aprender la técnica paso a paso.</p>
+            <span class="tag soon">En preparación</span>
           </div>
         </li>
-        <li>
-          <div class="card">
-            <span class="status soon">En preparación</span>
-            <h3>Academia</h3>
-            <p>Un lugar donde reunir lo que voy aprendiendo y enseñando. Todavía en construcción.</p>
+        <li class="row">
+          <span class="n">03</span>
+          <h3 class="display">Academia</h3>
+          <div>
+            <p>Un lugar donde reunir lo que voy aprendiendo y enseñando.</p>
+            <span class="tag soon">En preparación</span>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <div class="pair">
+      <figure>
+        <img src="img/calistenia.jpg" width="1000" height="1500" loading="lazy" alt="Daniel colgado de una barra en un gimnasio, con el cuerpo inclinado hacia delante" />
+        <figcaption><span class="display">Calistenia</span></figcaption>
+      </figure>
+      <figure>
+        <img src="img/capoeira.jpg" width="1000" height="1500" loading="lazy" alt="Daniel agachado en la roda, dando la mano a su rival antes de un juego" />
+        <figcaption><span class="display">Capoeira</span><small>Europeu Muzenza · Albufeira 2026</small></figcaption>
+      </figure>
+    </div>
+
+    <section class="wrap" aria-labelledby="quien">
+      <div class="about">
+        <img src="img/europeu-podio.jpg" width="900" height="1566" loading="lazy" alt="Daniel sonriendo en el podio del Europeu Muzenza con una medalla al cuello y la bandera de España" />
+        <div>
+          <p class="kicker">Quién soy</p>
+          <h2 id="quien" class="display">Daniel Jiménez</h2>
+          <p>Graduado en Ciencias de la Actividad Física y del Deporte. Instructor de calistenia y capoeirista del Grupo Muzenza.</p>
+          <a class="btn" href="entrenamiento-personal/">Entrena conmigo</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap" aria-labelledby="herramientas">
+      <h2 id="herramientas" class="section-title display">Herramientas</h2>
+      <ul class="rows">
+        <li class="row">
+          <span class="n">01</span>
+          <h3 class="display"><a href="https://anglelab.samuraimuzenza.com/">Angle Lab</a></h3>
+          <div>
+            <p>Análisis biomecánico sobre fotos: puntos, ángulos y distancias con calibración a escala real. Funciona en el navegador, también sin conexión.</p>
+            <a class="go" href="https://anglelab.samuraimuzenza.com/">Abrir</a>
           </div>
         </li>
       </ul>
     </section>
 
-    <footer>
-      <p>© 2026 Samurai Muzenza</p>
-    </footer>
+    <section class="cta-band">
+      <div class="wrap">
+        <p class="display">¿Empezamos?</p>
+        <p>Cuéntame qué buscas y te digo cómo lo haríamos.</p>
+        <a class="btn" href="https://ig.me/m/samurai.muzenza" rel="noopener" target="_blank">Escríbeme por Instagram</a>
+      </div>
+    </section>
   </main>
+
+  <footer>
+    <div class="foot wrap">
+      <a class="brand" href="./"><span class="mark" lang="ja" aria-hidden="true">侍</span> Samurai Muzenza</a>
+      <a class="bar-link" href="https://www.instagram.com/samurai.muzenza/" rel="me noopener" target="_blank">@samurai.muzenza ↗</a>
+      <p>© 2026 Samurai Muzenza</p>
+    </div>
+  </footer>
 </body>
 </html>
