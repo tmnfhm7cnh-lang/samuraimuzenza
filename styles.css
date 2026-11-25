@@ -141,6 +141,8 @@ section { padding: 72px 0; }
   line-height: 1;
 }
 
+.bar-link .ig { flex: none; margin-right: -2px; }
+
 .bar-link:hover, .bar-link:focus-visible, .brand:hover, .brand:focus-visible { color: var(--red); }
 
 /* ---- Buttons ---- */
@@ -325,6 +327,16 @@ section { padding: 72px 0; }
 .go:hover, .go:focus-visible { text-decoration: underline; text-underline-offset: 4px; }
 
 .links { display: flex; flex-wrap: wrap; gap: 6px 24px; }
+
+.apps { margin: 0; padding: 0; list-style: none; }
+
+.apps li { padding: 12px 0 0; border-top: 1px solid var(--line); }
+
+.apps li + li { margin-top: 4px; }
+
+.apps .tag { margin-left: 10px; }
+
+.apps p { margin: 4px 0 12px; }
 
 /* ---- Photo pair ---- */
 
