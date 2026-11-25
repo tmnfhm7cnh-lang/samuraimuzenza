@@ -434,6 +434,10 @@ footer {
 
 footer p { margin: 0; color: #9a9a96; font-size: 14px; }
 
+.foot-links { display: flex; flex-wrap: wrap; gap: 0 24px; }
+
+.bar-link.mail { text-transform: none; letter-spacing: 0.02em; }
+
 /* ---- Inner page header (personal training) ---- */
 
 .page-head {
